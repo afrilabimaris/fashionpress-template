@@ -1,0 +1,58 @@
+footer  {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	background-color: #D3D4D9;
+
+	.about  {
+		color: $color-hitam;
+		width: (600px / $lebar-tengah * 100%) / 4;
+		padding: 10px;
+		margin-left: 200px;
+		display: inline-block;
+		border-right: 2px solid #FFF;
+
+		h2  {
+			@extend %textposition;
+			color: $color-merah;
+		}
+		h3  {
+			@extend %textposition;
+			}
+	}
+
+	.follow  {
+		margin: $margin-nav;
+		width: (600px / $lebar-tengah * 100%) / 4;
+		display: inline-block;
+		border-right: 2px solid #FFF;
+		
+		ul {
+			list-style-type: none;
+			text-transform: uppercase;
+
+			i  {
+				color: $color-merah;
+				padding: 5px;
+				font-size: 24px;
+				display: inline-block;
+				
+			}
+		}
+	}
+
+	.contact  {
+		width: (600px / $lebar-tengah * 100%) / 4;
+		font-size: 15px;
+		display: inline-block;
+		border-right: 2px solid #FFF;
+	}
+
+	.info  {
+		color: $color-abu;
+		width: (600px / $lebar-tengah * 100%) / 4;
+		font-size: 15px;
+		display: inline-block;
+		border-right: 2px solid #FFF;
+	}
+}

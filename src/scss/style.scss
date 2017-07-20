@@ -1,0 +1,46 @@
+@import 'helpers/functions';
+@import 'helpers/extend'; 
+
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $color-back;
+}
+
+/* Header */
+@import 'layout/header';
+
+/* Navigation */
+@import 'components/navigation';
+
+/* Slideshow */
+@import 'components/slideshow';
+
+/* Section */
+@import 'components/section';
+
+/* Content */
+.content {
+	@extend %posisitengah;
+	margin-top: 10px;
+
+	// Side 
+	@import 'components/side';
+
+	// Product 
+	@import 'components/product';
+}
+
+	/* Gradient Line */
+	.grad {
+		img  {
+			width : 100%;
+			height: 25px;
+		}
+	}
+
+/* Footer */
+@import 'layout/footer';

@@ -1,0 +1,21 @@
+.product	{
+		width: 700px / $lebar-tengah * 100%;
+		float: left;
+		.box_one  {
+			@extend %boxproduct;
+			width: ((700px / $lebar-tengah * 100%)/3);
+
+			img  {
+				width: 160px;
+			}
+		}
+
+		.box_two  {
+			@extend %boxproduct;
+			width: 400px;
+
+			img  {
+				width: 380px;
+			}
+		}
+	}	

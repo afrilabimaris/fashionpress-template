@@ -1,0 +1,126 @@
+// Aside
+
+	.side	{
+		width: 200px / $lebar-tengah * 100%;
+		float: left;
+
+	// Categories
+		
+	  .categories	{
+	  	color: #111;
+	  	background-color: #DF1F26;
+	  	height: 15px; 
+	  	padding: 10px;
+
+	  }
+		ul  {
+
+			li  {
+				color: $color-hitam;
+				border-right: 2px solid #BEBEBE;
+				border-bottom: 1px solid #DFE0E1;
+				height: 40px;
+				list-style-type: none;
+
+				a  {
+				  @extend %linkbiasa;
+				  color: $color-hitam;
+				  display: block;
+				  font-size: 15px;
+
+					&:hover  {
+						@extend %linkbiasa;
+						color: $color-hitam;
+						background-color: #FFF;
+						border-right: 5px solid $color-merah;
+				  		height: 40px;
+
+					}
+					&:active  {
+						@extend %linkbiasa;
+						color: $color-hitam;
+						background-color: #FFF;
+				  		height: 40px;
+				  		width: 250px / $lebar-tengah * 100%;
+
+					}
+				}
+			}
+		}
+		.fa-caret-right  {
+			color: #E8E681;
+			padding: 15px;
+		}
+
+	// Delivery
+	.delivery  {
+	  border-right: 2px solid #BEBEBE;
+		h1  {
+	 	 color: $color-abu;
+		 font-size: 30px;
+		 text-align: center;
+		}
+
+		h2  {
+			color: $color-abu;
+			font-size: 25px;
+			text-align: center;
+		}
+	}
+
+	//Lates From Twitter
+	.comment	{
+		border-right: 2px solid #BEBEBE;
+
+		  h3  {
+		  	color: $color-merah;
+		  	padding-top: 50px;
+		  	padding-bottom: 10px;
+		  }
+
+			  .fa-twitter	{
+			  	color: $color-abu;
+			  	font-size: 24px;
+			  	padding-right: 5px;
+			  }
+		
+		  a  {
+			@extend %linkbiasa;
+			color: $color-merah;
+			padding: 3px;
+
+			&:hover  {
+				text-decoration: underline;
+			}
+		  } 
+
+		  p  {
+		  	color: $color-abu;
+		  	padding: 3px;
+		  }
+			
+			h5  {
+				color: $color-merah;
+				padding-left: 30px;
+			}
+		}
+
+	// Our Happy Client
+		.client  {
+		  border-right: 2px solid #BEBEBE;
+			h3  {
+				color: $color-merah;
+				margin: 35px;
+			}
+				p  {
+					color: $color-hitam;
+					margin-top: $margin-nav;
+
+					i  {
+						color: #684768;
+						margin: 10px;
+						font-size: 24px;
+					}
+				}
+		}
+	}

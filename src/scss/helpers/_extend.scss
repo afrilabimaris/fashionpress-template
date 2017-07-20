@@ -1,0 +1,55 @@
+%linkbiasa  {
+	text-decoration: none;
+}
+
+%posisitengah  {
+	width: $lebar-tengah;
+  	margin: $tengah-x;
+}	
+
+%textposition  {
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+%boxproduct  {
+	height: 270px;
+	margin: 15px;
+	background-color: #fff;
+	display: inline-block;
+
+		img  {
+			margin: 10px;
+			height: 180px;
+			}
+
+		h4  {
+			border-bottom: 1px solid $color-abu;
+			color: $color-harga;
+			font-size: 13px;
+			text-align: center;
+			}
+
+		h5  {
+			color: $color-harga;
+			border-right: 1px solid $color-abu;
+			display: inline-block;
+			font-size: 15px;
+			padding-left: 15px;
+			padding-right: 15px;
+			}
+
+		button  {
+			background-color: $color-merah;
+			border: none;
+			width: 80px;
+			height: 20px;
+			margin-left: 15px;
+			margin-top: 15px;
+			display: inline-block;
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+			}
+
+}
